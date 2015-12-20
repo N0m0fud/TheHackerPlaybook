@@ -61,7 +61,7 @@ function Install_Discover_Scripts() {
         cd /opt/
         git clone https://github.com/leebaird/discover.git
         cd discover
-        ./setup.sh
+        ./update.sh
         echo -e "Discover Scripts successfully installed. Press Enter to Return to the Main Menu."
     fi
 }
